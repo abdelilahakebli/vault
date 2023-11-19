@@ -20,8 +20,8 @@ npm install @abdelilahakebli/vault
 
 ## Usage
 
-```typescript
-import Vault from "@abdelilahakebli/vault";
+```javascript
+const Vault = require("@abdelilahakebli/vault")
 
 // Create a new Vault instance with a secret key
 const vault = new Vault("your-secret-key");
