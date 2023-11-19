@@ -6,7 +6,7 @@ class Vault {
     secret_iv : Buffer
     data: Map<string, string>
 
-    constructor(secret_key: string, secret_iv: string = null){
+    constructor(secret_key: string, secret_iv: string = ""){
         this.secret_key = Buffer.from(this.createHash( "sha256", secret_key), 'hex')
         this.secret_iv = !secret_iv ? this.secret_iv = crypto.randomBytes(16) : Buffer.from(this.createHash( "md5", secret_iv), "hex")
         this.data = new Map<string, string>()
