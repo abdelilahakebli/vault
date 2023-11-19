@@ -1,0 +1,42 @@
+# Ignore development and test files
+__tests__
+*.test.*
+*.spec.*
+
+# Ignore TypeScript source files
+*.ts
+tsconfig.json
+tslint.json
+
+# Ignore build and output files
+dist/
+build/
+*.log
+
+# Ignore version control files
+.git/
+.gitignore
+
+# Ignore package manager files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+.DS_Store
+
+# Ignore configuration files
+.editorconfig
+.eslintrc
+.prettierignore
+.prettierrc
+
+# Ignore documentation files
+docs/
