@@ -59,5 +59,4 @@ class Vault {
 
 }
 
-
-export default Vault;
+module.exports = Vault
