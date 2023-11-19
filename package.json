@@ -2,12 +2,16 @@
   "name": "@abdelilahakebli/vault",
   "version": "1.0.2",
   "description": "In memory key value pair database with encryption.",
-  "main": "src/index.js",
-  "type": "commonjs",
+  "main": "cjs/index.js",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    "require": "./cjs/index.js",
+    "import": "./esm/index.js"
   },
   "repository": {
     "type": "git",
