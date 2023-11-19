@@ -1,6 +1,6 @@
 {
   "name": "@abdelilahakebli/vault",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "In memory key value pair database with encryption.",
   "main": "cjs/index.js",
   "type": "module",
